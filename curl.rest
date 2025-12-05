@@ -1,0 +1,25 @@
+
+
+
+###
+POST http://172.16.2.49:8888/file_parse
+Content-Type: application/json; charset=utf-8
+
+{
+    "return_middle_json": false,
+    "return_model_output": false,
+    "return_md": true,
+    "return_images": false,
+    "end_page_id": "",
+    "parse_method": "auto",
+    "start_page_id": 0,
+    "lang_list": "ch",
+    "output_dir": "./output",
+    "server_url": "string",
+    "return_content_list": false,
+    "backend": "pipeline",
+    "table_enable": true,
+    "response_format_zip": false,
+    "formula_enable": true,
+    "file_path": "/home/double/vsproject/MinerU/demo/pdfs/demo1.pdf"
+}
